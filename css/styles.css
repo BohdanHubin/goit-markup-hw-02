@@ -15,12 +15,13 @@ body {
  /* logo */
 
 .logo {
-    font-family: 'Raleway';
+        font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;    
         letter-spacing: 0.03em;
+        text-decoration: none;
 }
 
 .logoweb {
@@ -32,12 +33,15 @@ body {
 
 /* heder */
 .navigation-list a {
-    color:#212121 ;
 
         font-weight: 500;
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
+        text-decoration: none;
+
+        color: #212121;
+
 }
 
 .navigation-list a:hover,
@@ -45,6 +49,11 @@ body {
 {
 color: #2196F3;
 }
+
+.navigation-list {
+    list-style: none;
+}
+
 
 /* hero */
 
@@ -89,3 +98,64 @@ color: #2196F3;
     
         color: #212121;
 }
+
+.section-list li {
+    list-style: none;
+}
+
+.list-worker h3 {
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;    
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+.list-worker p {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.list-worker li {
+    list-style: none;
+}
+
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+}
+.logostudio-footer {
+    color: #FFFFFF;
+}
+
+.addres {
+        /* font-family: 'Roboto'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        color: #FFFFFF;
+}
+
+.footer-contact {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;    
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+        color: rgba(255, 255, 255, 0.6);
+}
+
