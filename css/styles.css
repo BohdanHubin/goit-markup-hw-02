@@ -1,0 +1,30 @@
+/* палитра */
+
+/* цвет основного текста  #757575
+   цвет заголовков  #212121
+   цвет акцентов #2196F3
+   цвет лого #000000
+   цвет фона #FFFFFF
+ */
+
+
+ /* logo */
+/* .logo, .navigation-list a {text-decoration: none;} */
+
+.logoweb {
+    color: #2196F3;
+}
+.logostudio {
+    color: #000;
+}
+
+/* heder */
+.navigation-list a {
+    color:#212121 ;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus
+{
+color: #2196F3;
+}
