@@ -9,9 +9,17 @@
 
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 
+.navigation-list,
+.section-list li,
+.list-worker li,
+.portfolio-list li,
+.button-list li {
+    list-style: none;
+}
  /* logo */
 
 .logo {
@@ -28,7 +36,7 @@ body {
     color: #2196F3; 
 }
 .logostudio {
-    color: #000;
+    color: #000000;
 }
 
 /* heder */
@@ -40,7 +48,7 @@ body {
         letter-spacing: 0.02em;
         text-decoration: none;
 
-        color: #212121;
+        /* color: #212121; */
 
 }
 
@@ -48,10 +56,6 @@ body {
 .navigation-list a:focus
 {
 color: #2196F3;
-}
-
-.navigation-list {
-    list-style: none;
 }
 
 
@@ -66,6 +70,25 @@ color: #2196F3;
         text-transform: uppercase;
 }
 
+.hero button{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;    
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        cursor: pointer;
+}
+
+.hero button:hover, 
+.hero button:focus
+ {
+        color: #FFFFFF;
+        background-color: #2196F3;
+    }
+
 /* section */
 
 .section-title {
@@ -75,7 +98,7 @@ color: #2196F3;
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        /* color: #212121; */
 }
 
 .section-list h3 {
@@ -85,23 +108,19 @@ color: #2196F3;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        /* color: #212121; */
 }
 
 
 .section-list p {
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        /* color: #212121; */
 }
 
-.section-list li {
-    list-style: none;
-}
 
 .list-worker h3 {
     
@@ -110,7 +129,7 @@ color: #2196F3;
         line-height: 1.18;    
         letter-spacing: 0.03em;
     
-        color: #212121;
+        /* color: #212121; */
 }
 
 .list-worker p {
@@ -123,9 +142,6 @@ color: #2196F3;
         color: #757575;
 }
 
-.list-worker li {
-    list-style: none;
-}
 
 /* footer */
 
@@ -137,7 +153,6 @@ color: #2196F3;
 }
 
 .addres {
-        /* font-family: 'Roboto'; */
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -159,3 +174,26 @@ color: #2196F3;
         color: rgba(255, 255, 255, 0.6);
 }
 
+.section-list a:hover,
+.section-list a:focus {
+    color: #2196F3;}
+
+/* Portfolio */
+
+.item-button button {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;    
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+}
+
+  .item-button button:hover,
+  .item-button button:focus
+   {
+        color: #FFFFFF;
+        background-color: #2196F3;
+    
+}
