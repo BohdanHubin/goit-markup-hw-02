@@ -8,11 +8,23 @@
  */
 
 
+body {
+    font-family: 'Roboto';
+}
+
  /* logo */
-/* .logo, .navigation-list a {text-decoration: none;} */
+
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;    
+        letter-spacing: 0.03em;
+}
 
 .logoweb {
-    color: #2196F3;
+    color: #2196F3; 
 }
 .logostudio {
     color: #000;
@@ -21,10 +33,59 @@
 /* heder */
 .navigation-list a {
     color:#212121 ;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
 }
 
 .navigation-list a:hover,
 .navigation-list a:focus
 {
 color: #2196F3;
+}
+
+/* hero */
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+/* section */
+
+.section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+.section-list h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+
+
+.section-list p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
 }
