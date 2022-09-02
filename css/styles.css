@@ -71,6 +71,9 @@ color: #2196F3;
 
 /* hero */
 
+.hero {
+    background-color: #2F303A;
+}
 .hero-title {
         font-weight: 900;
         font-size: 44px;
@@ -78,22 +81,23 @@ color: #2196F3;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+
+        color: #FFFFFF;
 }
 
-.hero button{
+.hero-button {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;    
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
 
         cursor: pointer;
 }
 
-.hero button:hover, 
-.hero button:focus
+.hero-button:hover, 
+.hero-button:focus
  {
         color: #FFFFFF;
         background-color: #2196F3;
