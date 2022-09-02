@@ -13,13 +13,6 @@ body {
     color: #212121;
 }
 
-.navigation-list,
-.section-list li,
-.list-worker li,
-.portfolio-list li,
-.button-list li {
-    list-style: none;
-}
  /* logo */
 
 .logo {
@@ -40,24 +33,41 @@ body {
 }
 
 /* heder */
-.navigation-list a {
+
+/* nav */
+.navigation-item {
 
         font-weight: 500;
         font-size: 14px;
         line-height: 1.15;
         letter-spacing: 0.02em;
         text-decoration: none;
-
-        /* color: #212121; */
+        color: #212121;
 
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus
+.navigation-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;
+}
+
+
+
+.navigation-item:hover,
+.navigation-item:focus,
+.navigation-contact:hover,
+.navigation-contact:focus
 {
 color: #2196F3;
 }
 
+.navigation-list {
+    list-style: none;
+}
 
 /* hero */
 
