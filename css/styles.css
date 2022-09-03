@@ -14,13 +14,15 @@
     --text-color: #757575;
     --secondary-text-color :rgba(255, 255, 255, 0.6);
     --logo-color: #000000;
-    --background-color: #2F303A;
+    --background-color: #F5F5F5;
+    --secondary-background-color: #2F303A;
 
  }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--title-color);
+    background-color: var(--background-color);
 }
 
 .section-list,
@@ -87,7 +89,7 @@ color: var(--accent-color);
 /* hero */
 
 .hero {
-    background-color: var(--background-color) ;
+    background-color: var(--secondary-background-color) ;
 }
 .hero-title {
         font-weight: 900;
@@ -172,7 +174,7 @@ color: var(--accent-color);
 /* footer */
 
 .footer {
-    background-color: var(--background-color) ;
+    background-color: var(--secondary-background-color) ;
 }
 .logostudio-footer {
     color: var(--secondary-title-color) ;
