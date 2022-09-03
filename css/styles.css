@@ -212,7 +212,12 @@ color: var(--accent-color);
 
 /* Portfolio */
 
-.item-button button {
+.button-list,
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-button {
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
@@ -222,10 +227,27 @@ color: var(--accent-color);
         
 }
 
-  .item-button button:hover,
-  .item-button button:focus
+  .portfolio-button:hover,
+  .portfolio-button:focus
    {
         color: var(--secondary-title-color) ;
         background-color: var(--accent-color);
     
+}
+
+.portfolio-title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;    
+        letter-spacing: 0.06em;
+    
+}
+
+.portfolio-desk {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;    
+        letter-spacing: 0.03em;
+    
+        color: var(--text-color);
 }
