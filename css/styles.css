@@ -16,6 +16,7 @@
     --logo-color: #000000;
     --background-color: #F5F5F5;
     --secondary-background-color: #2F303A;
+    --third-background-color: #F5F4FA;
 
  }
 
@@ -150,6 +151,9 @@ color: var(--accent-color);
         color: var(--text-color) ;
 }
 
+.worker {
+    background-color: var(--third-background-color);
+}
 
 .worker-title {
     
