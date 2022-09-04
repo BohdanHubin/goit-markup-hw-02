@@ -198,13 +198,17 @@ color: var(--accent-color);
 
 /* Portfolio */
 
+.portfolio-main-title {
+    color: var(--title-color);
+}
+
 .button-list,
 .portfolio-list {
     list-style: none;
 }
 
 .portfolio-button {
-        font-family: 'Roboto';
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;    
@@ -225,17 +229,21 @@ color: var(--accent-color);
 
 .portfolio-title {
     font-weight: 700;
-        font-size: 18px;
-        line-height: 2;    
-        letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+    color: var(--title-color);
     
 }
 
 .portfolio-desk {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.88;    
-        letter-spacing: 0.03em;
-    
-        color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;    
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
 }
