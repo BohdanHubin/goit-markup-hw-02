@@ -14,12 +14,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    
+    background-color: var(--base-backgroud-color);
     
 }
 
@@ -119,9 +118,7 @@ color: var(--accent-color);
 
 /* section */
 
-.section {
-    background-color: var(--background-color);
-}
+
 
 .section-title {
         font-weight: 700;
@@ -206,9 +203,6 @@ color: var(--accent-color);
 
 /* Portfolio */
 
-.portfolio {
-    background-color: var(--background-color);
-} 
 
 .portfolio-main-title {
     color: var(--title-color);
@@ -226,6 +220,8 @@ color: var(--accent-color);
         line-height: 1.62;    
         text-align: center;
         letter-spacing: 0.03em;
+
+        background-color: var(--third-background-color);
 
         cursor: pointer;
         
